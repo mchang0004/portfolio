@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap">
+  <title>Art Portfolio - Maps</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+
+  <style>
+    .single-image {
+      position: relative;
+      padding-bottom: 65%; /* Adjust this value to set the aspect ratio */
+      height: 0;
+      overflow: hidden;
+    }
+
+    .single-image iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Michael Chang</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">My Work</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="maps.html">Maps</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+  <h1>Maps</h1>
+  <h2>Pixel Sorellia Map</h2>
+    This is an interactive map created in adobe animate. Feel free to click on any landmass and then on a city.
+  <div class="single-image" id="map-single">
+      <iframe src="https://mchang0004.github.io/pixelSorellia/" title="Pixel Sorellia"></iframe>
+  </div>
+
+  <h2><a href="https://inkarnate.com/" target = "_blank">Inkarnate Maps</a></h2>
+    These maps were made using inkarnate.
+  <div class="mapImage-grid" id="maps-grid">
+    <script src="scripts/maps-grid.js"></script>
+  </div>
+
+
+
+
+
+
+
+  </main>
+  <footer>
+    <p>&copy; 2023 Michael Chang. All rights reserved.</p>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+</body>
+
+</html>

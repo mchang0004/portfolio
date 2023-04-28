@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap">
+  <title>Art Portfolio - Games</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  <style>
+    .single-game {
+      position: relative;
+      padding-bottom: 60%; /* Adjust this value to set the aspect ratio */
+      height: 0;
+      overflow: hidden;
+    }
+
+    .single-game iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+
+</head>
+
+<body class= "game-body">
+  <header>
+    <h1>Michael Chang</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="work.html">My Work</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="maps.html">Maps</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+  <h1>Games</h1>
+
+  <button type="button" class="collapsible">Meditate - Unreal Engine 5</button>
+
+  <div class=".content.open">
+    <b>This project was created to learn and experiment with Unreal Engine 5. It is an anti-game made to force the player to meditate and not play. It utilizes Nanite and the Megascans Library </b>
+    <p>
+    <div class="single-image" id="meditate-single-image">
+      <img src="images/games/MeditateLogo.png" alt="Meditate Screen">
+    </div>
+
+    <div class="thumbnail-grid" id="meditate-game-thumbnails"></div>
+      <div class="thumbnail-container">
+        <script src="scripts/meditateGameGallery.js"></script>
+        <!-- Thumbnails will be added using JavaScript -->
+      </div>
+
+    </div>
+  </div>
+
+  <button type="button" class="collapsible">Forest Adventure - JavaScript</button>
+  <div class="content">
+    <p></p>
+    <b>Click Start to Play</b>
+    <div class="single-game" id="forestAdventure-single">
+        <iframe src="https://mchang0004.github.io/ForestAdventure/" title="Pixel Sorellia"></iframe>
+    </div>
+  </div>
+
+  <button type="button" class="collapsible">Sushi Rush - Collaborative Project</button>
+  <div class="content">
+    <p></p>
+    <b>A zen and relaxing sushi making game.</b>
+    <p></p>
+    <div class="single-image" id="map-single">
+        <img src="images/games/sushirush.png" title="Sushi Rush"></img>
+    </div>
+  </div>
+
+
+  <script src="scripts/collapsible.js"></script>
+
+
+
+
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Michael Chang. All rights reserved.</p>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+</body>
+
+</html>
