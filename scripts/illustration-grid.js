@@ -1,5 +1,10 @@
 const illustration_images = [
   {
+    src: 'images/illustration/Knight1.png',
+    alt: 'Knight',
+    caption: 'Knight',
+  },
+  {
     src: 'images/illustration/Armored.png',
     alt: 'Armored',
     caption: 'Armored',
