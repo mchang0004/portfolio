@@ -1,8 +1,18 @@
 const illustration_images = [
   {
+    src: 'images/illustration/Knight2.png',
+    alt: 'Knight',
+    caption: 'Knight',
+  },
+  {
     src: 'images/illustration/Knight1.png',
     alt: 'Knight',
     caption: 'Knight',
+  },
+  {
+    src: 'images/illustration/Elk_small.png',
+    alt: 'Elk',
+    caption: 'Elk',
   },
   {
     src: 'images/illustration/Armored.png',
