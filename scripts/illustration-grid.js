@@ -15,6 +15,16 @@ const illustration_images = [
     caption: 'Elk',
   },
   {
+    src: 'images/illustration/Sushi.png',
+    alt: 'Sushi',
+    caption: 'Sushi',
+  },
+  {
+    src: 'images/illustration/RifleConcept.png',
+    alt: 'Rifle Concept',
+    caption: 'Rifle Concept',
+  },
+  {
     src: 'images/illustration/Armored.png',
     alt: 'Armored',
     caption: 'Armored',
@@ -35,19 +45,9 @@ const illustration_images = [
     caption: 'Fractured Hills',
   },
   {
-    src: 'images/illustration/Lux.png',
-    alt: 'LUX Logo',
-    caption: 'LUX Logo',
-  },
-  {
     src: 'images/illustration/Monument.png',
     alt: 'Monument',
     caption: 'Monument',
-  },
-  {
-    src: 'images/illustration/Sushi.png',
-    alt: 'Sushi',
-    caption: 'Sushi',
   },
   {
     src: 'images/illustration/Starlit-Islands.png',
