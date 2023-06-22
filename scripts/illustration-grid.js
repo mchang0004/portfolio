@@ -46,8 +46,8 @@ const illustration_images = [
   },
   {
     src: 'images/illustration/Sushi.png',
-    alt: 'Some Sushi',
-    caption: 'Some Sushi',
+    alt: 'Sushi',
+    caption: 'Sushi',
   },
   {
     src: 'images/illustration/Starlit-Islands.png',
