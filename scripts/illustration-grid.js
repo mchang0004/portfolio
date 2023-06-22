@@ -45,7 +45,7 @@ const illustration_images = [
     caption: 'Monument',
   },
   {
-    src: 'images/illustration/Some-Sushi.png',
+    src: 'images/illustration/Sushi.png',
     alt: 'Some Sushi',
     caption: 'Some Sushi',
   },
