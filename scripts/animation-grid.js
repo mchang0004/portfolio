@@ -15,6 +15,11 @@ const animation_images = [
     alt: 'The Tower',
     caption: 'The Tower',
   },
+  {
+    src: 'images/animation/SwordSpin.gif',
+    alt: 'The Tower',
+    caption: 'The Tower',
+  },
   // Add more image objects here
 ];
 
