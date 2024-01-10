@@ -1,65 +1,65 @@
 const illustration_images = [
   {
     src: 'images/illustration/Knight2.png',
-    alt: 'Knight',
+    alt: 'Loading',
     caption: 'Knight',
   },
   {
     src: 'images/illustration/Knight1.png',
-    alt: 'Knight',
+    alt: 'Loading',
     caption: 'Knight',
   },
   {
     src: 'images/illustration/Elk_small.png',
-    alt: 'Elk',
+    alt: 'Loading',
     caption: 'Elk',
   },
   {
     src: 'images/illustration/Sushi.png',
-    alt: 'Sushi',
+    alt: 'Loading',
     caption: 'Sushi',
   },
   {
     src: 'images/illustration/RifleConcept.png',
-    alt: 'Rifle Concept',
+    alt: 'Loading',
     caption: 'Rifle Concept',
   },
   {
     src: 'images/illustration/Armored.png',
-    alt: 'Armored',
+    alt: 'Loading',
     caption: 'Armored',
   },
   {
     src: 'images/illustration/Backyard-Dreaming.png',
-    alt: 'Backyard Dreaming',
+    alt: 'Loading',
     caption: 'Backyard Dreaming',
   },
   {
     src: 'images/illustration/First-tower.png',
-    alt: 'First Tower',
+    alt: 'Loading',
     caption: 'First Tower',
   },
   {
     src: 'images/illustration/Fractured-Hills.png',
-    alt: 'Fractured Hills',
+    alt: 'Loading',
     caption: 'Fractured Hills',
   },
   {
     src: 'images/illustration/Monument.png',
-    alt: 'Monument',
+    alt: 'Loading',
     caption: 'Monument',
   },
   {
     src: 'images/illustration/Starlit-Islands.png',
-    alt: 'Starlit Islands',
+    alt: 'Loading',
     caption: 'Starlit Islands',
   },
   {
     src: 'images/illustration/Super-Cold.png',
-    alt: 'Super Cold',
+    alt: 'Loading',
     caption: 'Super Cold',
   },
-  // Add more image objects here
+
 ];
 
 const illustrationGrid = document.getElementById('illustration-grid');

@@ -7,6 +7,8 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #dbdbdb
+
+
 }
 
 .index-body {
@@ -20,7 +22,7 @@ html, body {
 }
 
 body {
-
+  display: flex;
   flex-direction: column;
   min-height: 100%;
 }
@@ -92,11 +94,11 @@ main {
 }
 
 .intro-text {
-  flex: 0 0 75%; /* This will set the width of the text to be 75% */
+  flex: 0 0 75%;
 }
 
 .intro-image {
-  flex: 0 0 25%; /* This will set the width of the image container to be 25% */
+  flex: 0 0 25%;
 }
 
 .intro-image img {
@@ -131,7 +133,7 @@ main {
   display: block;
   width: 100%;
   height: 0;
-  padding-bottom: 100%; /* Make the container square */
+  padding-bottom: 100%; /* aspect ratio */
   position: relative;
   overflow: hidden;
 }
@@ -163,7 +165,7 @@ main {
   display: block;
   width: 100%;
   height: 0;
-  padding-bottom: 60%; /* Make the container square */
+  padding-bottom: 60%; /*aspect ratio*/
   position: relative;
   overflow: hidden;
 }
@@ -196,16 +198,34 @@ main {
 }
 
 .single-image {
-  text-align: center;
+  /* text-align: center;*/
+  position: relative;
+  padding-bottom: 65%;
+  height: 0;
+  overflow: hidden;
   margin-bottom: 1rem;
+
 }
 
 .single-image img {
-  max-height: 500px; /* Adjust the value to your preference */
+  max-height: 500px;
    width: auto;
    height: auto;
    display: block;
-   margin: 0 auto; /* Center the image horizontally */
+   margin: 0 auto;
+}
+
+.single-image {
+
+}
+
+.single-image iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 .graphicDesign-image-grid.thumbnail {
@@ -248,13 +268,12 @@ main {
 }
 
 #meditate-single-image img {
-  height: 40vh; /* 10% of the viewport height */
+  height: 40vh;
   width: auto;
   object-fit: cover;
 }
 
 /* collapsible */
-/* Style the button that is used to open and close the collapsible content */
 .collapsible {
  background-color: #051E1E;
  color: #ffffff;
@@ -267,13 +286,12 @@ main {
  font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* Color of button if it is clicked and hover */
 .active, .collapsible:hover {
  background-color: #0D2B2B;
  color: #ffbd33;
 }
 
-/* Style the collapsible content. Note: hidden by default */
 .content {
  padding: 0 18px;
  display: none;
@@ -288,6 +306,23 @@ main {
 }
 
 
+/* Game Page Stuff */
+.single-game {
+  position: relative;
+  padding-bottom: 60%; /* aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.single-game iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 footer {
 
   bottom: 0;
@@ -295,6 +330,6 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: auto; /* Push the footer to the bottom */
+  margin-top: auto; /*This puts the Footer  to the bottom*/
   width: 100%;
 }

@@ -3,7 +3,7 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    // Close other collapsible sections
+    // close the other collapsibles
     for (var j = 0; j < coll.length; j++) {
       if (coll[j] !== this) {
         coll[j].classList.remove("active");
@@ -11,7 +11,7 @@ for (i = 0; i < coll.length; i++) {
       }
     }
 
-    // Toggle the clicked collapsible section
+    // toggles the clicked collapsibles
     this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {

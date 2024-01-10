@@ -1,18 +1,17 @@
 const aos_images = [
   {
     src: 'images/games/AOS.png',
-    alt: 'AOS',
+    alt: 'Loading',
   },
   {
     src: 'images/games/AOS2.png',
-    alt: 'AOS2',
+    alt: 'Loading',
   },
   {
     src: 'images/games/AOS3.png',
-    alt: 'AOS3',
+    alt: 'Loading',
   },
 
-  // Add more image objects here
 ];
 
 const aosGameThumbnails = document.getElementById('aos-game-thumbnails');

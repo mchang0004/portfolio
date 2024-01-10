@@ -1,31 +1,31 @@
 const af_images = [
   {
     src: 'images/maps/D1.png',
-    alt: 'Drelian',
+    alt: 'Loading',
     caption: 'Drelian',
   },
   {
     src: 'images/maps/G1.png',
-    alt: 'Grivath',
+    alt: 'Loading',
     caption: 'Grivath',
   },
   {
     src: 'images/maps/S1.png',
-    alt: 'Sorellia',
+    alt: 'Loading',
     caption: 'Sorellia',
   },
   {
     src: 'images/maps/SL1.png',
-    alt: 'Steel Light',
+    alt: 'Loading',
     caption: 'Steel Light',
   },
   {
     src: 'images/maps/W1.png',
-    alt: 'Wulfrest',
+    alt: 'Loading',
     caption: 'Wulfrest',
   },
 
-  // Add more image objects here
+  // Add objects here
 ];
 
 const mapsGrid = document.getElementById('maps-grid');

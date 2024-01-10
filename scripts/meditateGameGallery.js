@@ -1,21 +1,21 @@
 const meditate_images = [
   {
     src: 'images/games/MeditateLogo.png',
-    alt: 'Meditate Splash Screen',
+    alt: 'Loading',
   },
   {
     src: 'images/games/MeditateGame1.png',
-    alt: 'Meditate Game',
+    alt: 'Loading',
   },
   {
     src: 'images/games/MeditateGame2.png',
-    alt: 'Meditate Game',
+    alt: 'Loading',
   },
   {
     src: 'images/games/MeditateGame3.png',
-    alt: 'Meditate Game',
+    alt: 'Loading',
   },
-  // Add more image objects here
+  // more here
 ];
 
 const meditateGameThumbnails = document.getElementById('meditate-game-thumbnails');

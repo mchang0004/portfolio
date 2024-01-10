@@ -1,29 +1,29 @@
 const graphicDesign_images = [
   {
     src: 'images/graphicDesign/PSA.png',
-    alt: 'PSA',
+    alt: 'Loading',
   },
   {
     src: 'images/graphicDesign/EGD/TechSigPanel.png',
-    alt: 'EGD Stream Overlay',
+    alt: 'Loading',
   },
   {
     src: 'images/graphicDesign/EGD/ThumbnailGameArt&Animation.png',
-    alt: 'EGD Thumbnail',
+    alt: 'Loading',
   },
   {
     src: 'images/graphicDesign/EGD/valorant-tournament-8-13-game.png',
-    alt: 'EGD Valorant Stream Overlay "Game"',
+    alt: 'Loading',
   },
   {
     src: 'images/graphicDesign/EGD/valorant-tournament-8-13-lobby.png',
-    alt: 'EGD Valorant Stream Overlay "Lobby"',
+    alt: 'Loading',
   },
   {
     src: 'images/graphicDesign/EGD/valorant-tournament-8-13-social.png',
-    alt: 'EGD Valorant Stream Overlay "Social"',
+    alt: 'Loading',
   },
-  // Add more image objects here
+
 ];
 
 const graphicDesignThumbnails = document.getElementById('graphic-design-thumbnails');

@@ -1,18 +1,18 @@
 const sos_images = [
   {
     src: 'images/games/sos.png',
-    alt: 'SOS1',
+    alt: 'Loading',
   },
   {
     src: 'images/games/sos2.png',
-    alt: 'sos2',
+    alt: 'Loading',
   },
   {
     src: 'images/games/sos3.png',
-    alt: 'sos3',
+    alt: 'Loading',
   },
 
-  // Add more image objects here
+  // Add more here
 ];
 
 const sosGameThumbnails = document.getElementById('sos-game-thumbnails');

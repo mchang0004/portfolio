@@ -2,39 +2,38 @@
 const animation_images = [
   {
     src: 'images/animation/Coolvibes.gif',
-    alt: 'Cool Vibes Esports',
+    alt: 'Loading', //alternative text if it cannot be displayed
     caption: 'Cool Vibes Esports',
   },
   {
     src: 'images/animation/explo.gif',
-    alt: 'Explosive Star',
+    alt: 'Loading',
     caption: 'Explosive Star',
   },
   {
     src: 'images/animation/TowerAnimation.gif',
-    alt: 'The Tower',
+    alt: 'Loading',
     caption: 'The Tower',
   },
   {
     src: 'images/animation/SwordSpin.gif',
-    alt: 'The Tower',
+    alt: 'Loading',
     caption: 'The Tower',
   },
-  // Add more image objects here
 ];
 
 const animationGrid = document.getElementById('animation-grid');
 
 animation_images.forEach((image) => {
-  const anchor = document.createElement('a');
-  anchor.href = image.src;
-  anchor.setAttribute('data-fancybox', 'animation-gallery');
-  anchor.setAttribute('data-caption', image.caption);
+  const thumbnail = document.createElement('a');
+  thumbnail.href = image.src;
+  thumbnail.setAttribute('data-fancybox', 'animation-gallery');
+  thumbnail.setAttribute('data-caption', image.caption);
 
   const img = document.createElement('img');
   img.src = image.src;
   img.alt = image.alt;
 
-  anchor.appendChild(img);
-  animationGrid.appendChild(anchor);
+  thumbnail.appendChild(img);
+  animationGrid.appendChild(thumbnail);
 });
