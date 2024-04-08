@@ -1,120 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap">
-  <title>Art Portfolio - Games</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <head>
 
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body class= "game-body">
-  <header>
-    <h1>Michael Chang</h1>
-    <nav>
-      <div id="buttons-container">
-        <a href="index.html" class="button">Home</a>
-        <a href="work.html" class="button">Work</a>
-        <a href="games.html" class="button">Games</a>
-        <a href="maps.html" class="button">Maps</a>
-        <a href="contact.html" class="button">Contact</a>
-      </div>
-    </nav>
-  </header>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/games.css">
+    <link rel="stylesheet" href="styles/navigation.css">
 
-  <main class="container">
 
-  <h1>Games</h1>
 
-  <button type="button" class="collapsible">Artifacts of Sorellia - Unity</button>
-  <div class=".content.open">
-    <b>3d rogue-like made in Unity. Based on Decked Out 2. </b>
-    <p>
-    <div class="single-image" id="aos-single-image">
-      <img src="images/games/AOS.png" alt="AOS Screen">
-    </div>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+      <title>Michael Chang - Portfolio</title>
 
-    <div class="thumbnail-grid" id="aos-game-thumbnails"></div>
-      <div class="thumbnail-container">
-        <script src="scripts/aosGameGallery.js"></script>
-      </div>
 
-    </div>
+
+  </head>
+
+
+<body>
+
+  <div class="navigationBar">
+    <a href="index.html" class="button">Home</a>
+    <a href="games.html" class="button">Games</a>
+    <a href="about.html" class="button">About</a>
   </div>
 
+  <div class="main">
+    <h1> Games </h1>
 
-  <button type="button" class="collapsible">Stars of Sorellia - Unity</button>
-  <div class="content">
-    <b>2d topdown game made in Unity. </b>
-    <p>
-    <div class="single-image" id="sos-single-image">
-      <img src="images/games/sos.png" alt="SOS Screen">
-    </div>
 
-    <div class="thumbnail-grid" id="sos-game-thumbnails"></div>
-      <div class="thumbnail-container">
-        <script src="scripts/sosGameGallery.js"></script>
-      </div>
-
+    <div class="card-container">
+      <div id="cards"></div>
+      <script src="scripts/games.js"></script>
     </div>
   </div>
-
-  <button type="button" class="collapsible">Meditate - Unreal Engine 5</button>
-  <div class="content">
-    <b>This project was created to learn and experiment with Unreal Engine 5. It is an anti-game made to force the player to meditate and not play. It utilizes Nanite and the Megascans Library </b>
-    <p>
-    <div class="single-image" id="meditate-single-image">
-      <img src="images/games/MeditateLogo.png" alt="Meditate Screen">
-    </div>
-
-    <div class="thumbnail-grid" id="meditate-game-thumbnails"></div>
-      <div class="thumbnail-container">
-        <script src="scripts/meditateGameGallery.js"></script>
-      </div>
-
-    </div>
-  </div>
-
-  <button type="button" class="collapsible">Forest Adventure - JavaScript</button>
-  <div class="content">
-    <p></p>
-    <b>Click Start to Play or https://mchang0004.github.io/ForestAdventure/</b>
-    <div class="single-game" id="forestAdventure-single">
-        <iframe src="https://mchang0004.github.io/ForestAdventure/" title="Pixel Sorellia"></iframe>
-    </div>
-  </div>
-
-  <button type="button" class="collapsible">Sushi Rush - Collaborative Project</button>
-  <div class="content">
-    <p></p>
-    <b>A zen and relaxing sushi making game.</b>
-    <p></p>
-    <div class="single-image" id="map-single">
-        <img src="images/games/sushirush.png" title="Sushi Rush"></img>
-    </div>
-  </div>
-
-
-  <script src="scripts/collapsible.js"></script>
-
-
-
-
-
-
-  </main>
 
   <footer>
-    <p>&copy; 2024 Michael Chang. All rights reserved.</p>
+    <p>2024 &copy Michael Chang</p>
   </footer>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
-
-
 </body>
+
 
 </html>

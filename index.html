@@ -3,45 +3,42 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap">
-  <title>Art Portfolio - Home</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.0">
+  <title>Michael Chang - Portfolio</title>
+
+  <link rel="stylesheet" href="styles/imageScrolling.css">
+  <link rel="stylesheet" href="styles/navigation.css">
+  <link rel="stylesheet" href="styles/main.css">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+
 
 </head>
 
-<body class="index-body">
-  <header>
-    <h1>Michael Chang</h1>
-    <nav>
-      <div id="buttons-container">
-        <a href="index.html" class="button">Home</a>
-        <a href="work.html" class="button">Work</a>
-        <a href="games.html" class="button">Games</a>
-        <a href="maps.html" class="button">Maps</a>
-        <a href="contact.html" class="button">Contact</a>
-      </div>
-    </nav>
-  </header>
 
-  <main class="container">
-    <div class="intro">
-      <div class="intro-text">
-        <h1>Welcome to My Portfolio</h1>
-        <p>
-          Hi, I'm Michael, a multimedia artist with an animation, illustration, and game development background. I'm particularly interested in game design and AI artwork and have developed my skills using software like Unity and Unreal Engine. I enjoy writing tabletop RPG rule sets and immersing myself in the world of fantasy through books, games, anime, movies, and television. I'm passionate about my work and am always eager to learn and explore new techniques and concepts. Please take a look at my portfolio to see some of my work.    </p>
-      </div>
-      <div class="intro-image">
-        <img src="images/site/Portrait.png" alt=" ">
-      </div>
+
+<body>
+
+  <div class="navigationBar">
+    <a href="index.html" class="button">Home</a>
+    <a href="games.html" class="button">Games</a>
+    <a href="about.html" class="button">About</a>
+  </div>
+
+
+
+<div class ="main">
+    <h1> Michael Chang | @mchang0004
+      <div style="font-size: 75%"> Welcome to my Portfolio </div>
+    </h1>
+
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0"></div>
     </div>
-  </main>
-
-
   <footer>
-    <p>&copy; 2024 Michael Chang. All rights reserved.</p>
+    <p>2024 &copy; Michael Chang</p>
   </footer>
 
+  <script src="scripts/imageScrolling.js"></script>
 </body>
 
 </html>
