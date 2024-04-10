@@ -1,4 +1,3 @@
-// Define image data with src, alt, and text
 const imageData = [
   { src: "images/illustration/Knight2.png", alt: "Knight", text: "Knight | Clip Studio Paint | Digital Drawing", link: "" },
   { src: "images/illustration/Elk_small.png", alt: "Elk", text: "Elk | Affinity Designer | Vector Drawing", link: "" },

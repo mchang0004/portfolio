@@ -11,7 +11,7 @@ cardsData.forEach(({imageUrl, link, text }) => {
   cardElement.className = 'card';
 
   cardElement.addEventListener('click', () => {
-    window.open(link, '_blank');                                    //opens the assigned link from the array, and in a new tab
+    window.open(link, '_blank');                                   //opens the assigned link from the array, and in a new tab
   });
 
   const frontImageElement = document.createElement('img');        //create new image for each card
