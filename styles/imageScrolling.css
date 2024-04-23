@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(to bottom, #8a9ca8, #363d40);
-  color: white;
+  color: #050609;
   font-family: "Montserrat", sans-serif;
 
 
@@ -56,7 +56,7 @@ h1 {
 .image-text {
   position: absolute;
   top: 100%;
-  color: white;
+  color: #050609;
   draggable: false;
 }
 
@@ -65,7 +65,7 @@ h1 {
   text-align: center;
   top: 105%;
   font-size: 70%;
-  color: white;
+  color: #050609;
   text-decoration: underline;
 }
 

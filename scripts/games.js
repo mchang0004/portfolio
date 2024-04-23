@@ -4,7 +4,33 @@ const cardsData = [
   {imageUrl: 'images/games/FA_Thumbnail.png', link: 'https://mchang0004.github.io/ForestAdventure/', text: 'Forest Adventure - Javascript | In Browser'},
 ];
 
+
 const cardsContainer = document.getElementById('cards');
+cardsContainer.style.display = 'grid';
+cardsContainer.style.gridTemplateColumns = 'repeat(3, 1fr)'; // 3 columns
+cardsContainer.style.gap = '3vh';
+
+function updateGridLayout() {
+
+    const viewportWidth = window.innerWidth;
+
+
+
+  if (viewportWidth <= 908 && viewportWidth > 590) {
+      cardsContainer.style.gridTemplateColumns = 'repeat(2, 1fr)'; // 2 columns for smaller screens
+    } else if (viewportWidth <= 590) {
+      cardsContainer.style.gridTemplateColumns = 'repeat(1, 1fr)'; // 1 column for even smaller screens
+    } else {
+      cardsContainer.style.gridTemplateColumns = 'repeat(3, 1fr)'; // 3 columns for larger screens
+    }
+  }
+
+updateGridLayout();
+
+window.addEventListener('resize', updateGridLayout);
+
+
+
 
 cardsData.forEach(({imageUrl, link, text }) => {
   const cardElement = document.createElement('div');              //create new div for each card
