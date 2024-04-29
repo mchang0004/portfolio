@@ -1,8 +1,8 @@
 const cardsData = [
-  {imageUrl: '/images/games/SOS_Thumbnail.png', link: 'https://mchang0004.itch.io/stars-of-sorellia', text: 'Stars of Sorellia - Unity 2D Game | itch.io '},
-  {imageUrl: '/images/games/AOS_Thumbnail.png', link: 'https://mchang0004.itch.io/artifacts-of-sorellia', text: 'Artifacts of Sorellia - Unity 3D Game | itch.io '},
-  {imageUrl: '/images/games/FA_Thumbnail.png', link: 'https://mchang0004.github.io/ForestAdventure/', text: 'Forest Adventure - Javascript | In Browser'},
-  {imageUrl: '/images/games/KAF_Thumbnail.png', link: 'https://mchang0004.itch.io/kaf-sorellia', text: 'KAF - Unity 3D Game | itch.io '},
+  {imageUrl: '/portfolio/images/games/SOS_Thumbnail.png', link: 'https://mchang0004.itch.io/stars-of-sorellia', text: 'Stars of Sorellia - Unity 2D Game | itch.io '},
+  {imageUrl: '/portfolio/images/games/AOS_Thumbnail.png', link: 'https://mchang0004.itch.io/artifacts-of-sorellia', text: 'Artifacts of Sorellia - Unity 3D Game | itch.io '},
+  {imageUrl: '/portfolio/images/games/FA_Thumbnail.png', link: 'https://mchang0004.github.io/ForestAdventure/', text: 'Forest Adventure - Javascript | In Browser'},
+  {imageUrl: '/portfolio/images/games/KAF_Thumbnail.png', link: 'https://mchang0004.itch.io/kaf-sorellia', text: 'KAF - Unity 3D Game | itch.io '},
 
 ];
 

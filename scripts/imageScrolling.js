@@ -1,10 +1,10 @@
 const imageData = [
-  { src: "/images/illustration/Knight2.png", alt: "Knight", text: "Knight | Clip Studio Paint | Digital Drawing", link: "" },
-  { src: "/images/illustration/Elk_small.png", alt: "Elk", text: "Elk | Affinity Designer | Vector Drawing", link: "" },
-  { src: "/images/illustration/Sushi.png", alt: "Sushi", text: "Sushi | Photoshop | Digital Drawing", link: "" },
-  { src: "/images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes | Photoshop | Animation", link: "" },
-  { src: "/images/animation/explo.gif", alt: "Explosion", text: "Explosion | Photoshop | Animation", link: "" },
-  { src: "/images/animation/TowerAnimation.gif", alt: "Tower", text: "Tower | Photoshop | Animation", link: "" }
+  { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight | Clip Studio Paint | Digital Drawing", link: "" },
+  { src: "/portfolio/images/illustration/Elk_small.png", alt: "Elk", text: "Elk | Affinity Designer | Vector Drawing", link: "" },
+  { src: "/portfolio/images/illustration/Sushi.png", alt: "Sushi", text: "Sushi | Photoshop | Digital Drawing", link: "" },
+  { src: "/portfolio/images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes | Photoshop | Animation", link: "" },
+  { src: "/portfolio/images/animation/explo.gif", alt: "Explosion", text: "Explosion | Photoshop | Animation", link: "" },
+  { src: "/portfolio/images/animation/TowerAnimation.gif", alt: "Tower", text: "Tower | Photoshop | Animation", link: "" }
 ];
 
 
