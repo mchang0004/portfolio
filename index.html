@@ -1,36 +1,44 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.0">
-    <title>Michael Chang - Portfolio</title>
-    <link rel="stylesheet" href="styles/imageScrolling.css">
-    <link rel="stylesheet" href="styles/navigation.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico?">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
-  </head>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/styles/home.css">
+      <link rel="stylesheet" href="/styles/navigation.css">
+      <link rel="stylesheet" href="/styles/main.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+      <title>Michael Chang - Portfolio</title>
 
-  <body>
-    <div class="navigationBar">
-      <a href="index.html" class="button">Home</a>
-      <a href="games.html" class="button">Games</a>
-      <a href="about.html" class="button">About</a>
-    </div>
+      <!-- Favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+      <link rel="manifest" href="/favicon/site.webmanifest">
+      <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#949494">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+      <!-- Favicon End -->
 
-    <div class ="main">
-      <h1> Michael Chang | @mchang0004
-      <div style="font-size: 75%"> Welcome to my Portfolio </div>
-      </h1>
-      <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0"></div>
-    </div>
+    </head>
 
-    <footer>
-      <p>2024 &copy Michael Chang | michaelxchang.ca[at]gmail.com</p>
-    </footer>
+    <body>
+      <div class="navigationBar">
 
-    <script src="scripts/imageScrolling.js"></script>
-    
-  </body>
+        <a href="/" class="button" id="buttonHome"><img src="/favicon/favicon-32x32.png" alt="Home"></a>
+        <a href="/games/" class="button">Games</a>
+        <a href="/illustrations/" class="button">Illustrations</a>
+        <a href="/about/" class="button">About</a>
+      </div>
 
-</html>
+      <div class="video" style="margin-top: 7vh;">
+
+        <video autoplay muted loop >
+            <source src="files/video/home.mp4" type="video/mp4">
+
+        </video>
+      </div>
+    </body>
+
+
+
+
+
+  </html>

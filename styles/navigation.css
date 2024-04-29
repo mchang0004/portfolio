@@ -87,3 +87,13 @@ li {
 .link:visited {
   color: #9cf5ff;
 }
+
+#buttonHome img {
+  vertical-align: middle;
+  margin-top: 2px;
+}
+
+#buttonOther img {
+  vertical-align: middle;
+  margin-top: -6px;
+}

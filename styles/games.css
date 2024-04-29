@@ -22,12 +22,7 @@ cards
 
 
 
-img{
-  height: 100%;
-  width: 100%;
-  display: block;
 
-}
 
 .effect{
   height: 100%;
@@ -62,7 +57,7 @@ img{
   cursor: pointer;
   transition: scale 1000ms;
 
-
+  color: white;
 }
 
 @media screen and (max-width: 1024vh) {

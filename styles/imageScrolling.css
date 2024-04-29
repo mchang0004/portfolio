@@ -1,6 +1,6 @@
 body {
-  background: linear-gradient(to bottom, #8a9ca8, #363d40);
-  color: #050609;
+  background: linear-gradient(to bottom, #333, #333);
+  color: white;
   font-family: "Montserrat", sans-serif;
 
 
@@ -56,7 +56,7 @@ h1 {
 .image-text {
   position: absolute;
   top: 100%;
-  color: #050609;
+  color: white;
   draggable: false;
 }
 

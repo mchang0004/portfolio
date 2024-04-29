@@ -5,8 +5,8 @@ Text
 */
 
 body {
-  background: linear-gradient(to bottom, #e3e2de, #FAF9F6);
-  color: #050609;
+  background: linear-gradient(to bottom, #333, #333);
+  color: white;
   font-family: "Montserrat", sans-serif;
 
 
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  color: #050609;
+  color: white;
   text-align: center;
   font-size: 200%;
 
@@ -81,4 +81,5 @@ footer {
   text-align: center;
   padding: 20px 0;
   z-index: 25;
+  font-size: 12px;
 }
