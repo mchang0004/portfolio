@@ -29,6 +29,15 @@ h1 {
 
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100%;
+
+
+}
+
+
 p{
   max-width: 800px;
   margin: auto;
