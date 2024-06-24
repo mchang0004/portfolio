@@ -20,6 +20,16 @@ h1 {
 
 }
 
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 100%;
+
+
+}
+
+
 #image-track {
   display: flex;
   gap: 4vmin;
