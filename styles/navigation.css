@@ -83,6 +83,23 @@ li {
   color: #9cf5ff;
 }
 
+.image-link{
+  position: relative;
+  text-align: center;
+  top: 105%;
+  font-size: 70%;
+  color: #050609;
+  text-decoration: underline;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 100%;
+
+
+}
+
 
 .link:visited {
   color: #9cf5ff;
