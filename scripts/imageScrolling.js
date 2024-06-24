@@ -1,11 +1,11 @@
 // Define image data with src, alt, and text
 const imageData = [
-  { src: "images/illustration/Knight2.png", alt: "Knight", text: "Knights", link: "knights_collection.html" },
-  { src: "images/illustration/Elk_small.png", alt: "Elk", text: "Elk", link: "" },
-  { src: "images/illustration/Sushi.png", alt: "Sushi", text: "Sushi", link: "" },
-  { src: "images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes", link: "" },
-  { src: "images/animation/explo.gif", alt: "Explosion", text: "Explosion", link: "" },
-  { src: "images/animation/TowerAnimation.gif", alt: "Tower", text: "Tower", link: "" }
+  { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight", link: "knights.html" },
+  { src: "/portfolio/images/illustration/Elk_small.png", alt: "Elk", text: "Elk", link: "" },
+  { src: "/portfolio/images/illustration/Sushi.png", alt: "Sushi", text: "Sushi", link: "" },
+  { src: "/portfolio/images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes", link: "" },
+  { src: "/portfolio/images/animation/explo.gif", alt: "Explosion", text: "Explosion", link: "" },
+  { src: "/portfolio/images/animation/TowerAnimation.gif", alt: "Tower", text: "Tower", link: "" }
 ];
 
 
