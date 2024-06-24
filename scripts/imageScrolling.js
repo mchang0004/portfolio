@@ -1,5 +1,5 @@
 const imageData = [
-  { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight | Clip Studio Paint | Digital Drawing", link: "" },
+  { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight | Clip Studio Paint | Digital Drawing", link: "/portfolio/illustrations/knights.html" },
   { src: "/portfolio/images/illustration/Elk_small.png", alt: "Elk", text: "Elk | Affinity Designer | Vector Drawing", link: "" },
   { src: "/portfolio/images/illustration/Sushi.png", alt: "Sushi", text: "Sushi | Photoshop | Digital Drawing", link: "" },
   { src: "/portfolio/images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes | Photoshop | Animation", link: "" },
