@@ -2,7 +2,7 @@
 const imageData = [
   { src: "/portfolio/images/drag.png", alt: "", text: "", link: "" },
   { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight", link: "knights.html" },
-  { src: "/portfolio/images/animation/HD.gif", alt: "Helldivers", text: "Knight", link: "helldivers.html" },
+  { src: "/portfolio/images/animation/HD.gif", alt: "Helldivers", text: "Helldivers", link: "helldivers.html" },
   { src: "/portfolio/images/illustration/Elk_small.png", alt: "Elk", text: "Elk", link: "" },
   { src: "/portfolio/images/illustration/Sushi.png", alt: "Sushi", text: "Sushi", link: "" },
   { src: "/portfolio/images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes", link: "" },
@@ -69,8 +69,8 @@ let currentPercentage = 0;      //tracks the current scroll by percentage
 
 //scrolling starts with the last image as the minimum, and the first image as the maximum
 
-const minPercentage = -44.5;
-const maxPercentage = 0;
+const minPercentage = -124.5;
+const maxPercentage = -30;
 
 
 /* for tracking the mouse down for dragging */
