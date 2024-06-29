@@ -69,8 +69,8 @@ let currentPercentage = 0;      //tracks the current scroll by percentage
 
 //scrolling starts with the last image as the minimum, and the first image as the maximum
 
-const minPercentage = -124.5;
-const maxPercentage = -30;
+const minPercentage = -84.5;
+const maxPercentage = 0;
 
 
 /* for tracking the mouse down for dragging */
@@ -118,7 +118,7 @@ const updateTrackPosition = () => {
 
   track.animate(
     {
-      transform: `translate(${currentPercentage - 8}%, -50%)`  //The subtract from current position to affect the starting position. You will also need to change this in the CSS
+      transform: `translate(${currentPercentage - 8}%, -30%)`  //The subtract from current position to affect the starting position. You will also need to change this in the CSS
     },
     { duration: 1200, fill: "forwards" }
   );
