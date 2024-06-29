@@ -1,5 +1,6 @@
 // Define image data with src, alt, and text
 const imageData = [
+  { src: "/portfolio/images/drag.png", alt: "", text: "", link: "" },
   { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight", link: "knights.html" },
   { src: "/portfolio/images/animation/HD.gif", alt: "Helldivers", text: "Knight", link: "helldivers.html" },
   { src: "/portfolio/images/illustration/Elk_small.png", alt: "Elk", text: "Elk", link: "" },
@@ -68,7 +69,7 @@ let currentPercentage = 0;      //tracks the current scroll by percentage
 
 //scrolling starts with the last image as the minimum, and the first image as the maximum
 
-const minPercentage = -84.5;
+const minPercentage = -44.5;
 const maxPercentage = 0;
 
 
