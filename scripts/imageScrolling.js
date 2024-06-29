@@ -1,6 +1,7 @@
 // Define image data with src, alt, and text
 const imageData = [
   { src: "/portfolio/images/illustration/Knight2.png", alt: "Knight", text: "Knight", link: "knights.html" },
+  { src: "/portfolio/images/animation/HD.gif", alt: "Helldivers", text: "Knight", link: "helldivers.html" },
   { src: "/portfolio/images/illustration/Elk_small.png", alt: "Elk", text: "Elk", link: "" },
   { src: "/portfolio/images/illustration/Sushi.png", alt: "Sushi", text: "Sushi", link: "" },
   { src: "/portfolio/images/animation/Coolvibes.gif", alt: "Cool Vibes", text: "Cool Vibes", link: "" },
