@@ -5,6 +5,7 @@ const imageData = [
   { src: "images/3Drenders/Shield_1.png", alt: "Shield", text: "Shield - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Torch_1.png", alt: "Torch", text: "Torch - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Shoji_1.png", alt: "Torch", text: "Stylized Shoji - Blender & Substance 3D", link: "" },
+  { src: "images/3Drenders/Pillar_1.png", alt: "Torch", text: "Midpoly Pillar - Blender & Substance 3D", link: "" },
 
 ];
 
