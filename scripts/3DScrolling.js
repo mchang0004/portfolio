@@ -1,10 +1,11 @@
 // Define image data with src, alt, and text
 const imageData = [
   { src: "images/drag.png", alt: "", text: "", link: "" },
+  { src: "images/3Drenders/BevelledArch.png", alt: "Arches", text: "Arches - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Greatsword_4.png", alt: "Sword", text: "Greatsword - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Sword_7a.png", alt: "Sword", text: "Sword - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Knife_1.png", alt: "Knife", text: "Knife - Blender & Substance 3D", link: "" },
-  { src: "images/3Drenders/Shield_1.png", alt: "Shield", text: "Shield - Blender & Substance 3D", link: "" },
+  { src: "images/3Drenders/Shield_2.png", alt: "Shield", text: "Shield - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Torch_1.png", alt: "Torch", text: "Torch - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Shoji_1.png", alt: "Shoji", text: "Stylized Shoji - Blender & Substance 3D", link: "" },
   { src: "images/3Drenders/Pillar_1.png", alt: "Pillar", text: "Midpoly Pillar - Blender & Substance 3D", link: "" },
